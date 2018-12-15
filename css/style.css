@@ -1,0 +1,67 @@
+#topbar{
+    width: auto;
+    margin: 0 auto;
+    height: 100px;
+    background-color: #AE9D55
+}
+#menubarcontainer{
+    width: auto;
+    height: 40px;
+    background-color: #AE9D55    
+}
+#menubar a{
+    font-size: 22px;
+    padding: 0 10px;
+    border-right: 1px solid #BB4545;
+    position: relative;
+    float: right
+}
+
+#menubar a:hover{
+    text-decoration: underline;
+}
+
+#menubar input[type=text]{
+    height: 40px;
+    width: 300px
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#signin{
+    float: right;
+    font-size: 27;
+    font-weight: bold;
+    color: white;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+#logo{
+    height: 100px;
+    float: left;
+    padding-left: 0
+}
+body{
+    font-family: 'Dosis', 'Roboto',sans-serif;
+}
+hr{
+    
+    margin: 3;
+    
+}
+#menubar button{
+    height: 40;
+    color: white;
+    background-color: #ae9d55;
+    font-family: dosis;    
+    padding: none;    
+}
