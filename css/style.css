@@ -127,6 +127,4 @@ hr{
 .form button:hover, .form button:active{
     background: #AE9D15;
 }
-.form .register-form{
-    display: none;
-}
+
