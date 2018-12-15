@@ -6,7 +6,9 @@
 }
 #menubarcontainer{
     width: auto;
-    height: auto;
+
+    height: 30px;
+
     background-color: #AE9D55    
 }
 #menubar a{
