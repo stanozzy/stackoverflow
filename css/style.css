@@ -127,4 +127,7 @@ hr{
 .form button:hover, .form button:active{
     background: #AE9D15;
 }
-
+.about ul{
+    color: white;
+    background: rgba(0,0,0,0.4);
+}
