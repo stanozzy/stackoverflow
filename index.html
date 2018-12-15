@@ -1,19 +1,43 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
     <head>
         <title>login</title>
-        <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet"  type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Dosis|Roboto" rel="stylesheet">
     </head>
     <body>
-        <div class="form">
-            <form class="register-form">
+        
+        <div id="topbar">
+            <a href="">
+                <img id="logo" src="images/logo.jpg" >
+            </a>
+            <span id="slogan">ask anything</span>
+        </div>
+        
+        <hr>
+        <div id="menubarcontainer">
+            <div id="menubar">                
+                <a href="">About</a>
+                <a href="">my profile</a>
+                <a href="">Home</a> 
+                <input type="text">
+                <button type="submit" id="search" >search</button>
+            </div>
+        </div>
+        
+        <div class="login-container">
+        
+            <div class="form">
+
                 
-                <input type="text" placeholder="Your name"/>
-                <input type="text" placeholder="create password"/>
-                <input type="text" placeholder="Your e-mail"/>
-                
-                <button>create</button>
-                
-            </form>
+                <form class="login-form">
+                    <input type="text" placeholder="User name"/>
+                    <input type="password" placeholder="Password"/>
+                    <button>login</button>
+                    <p class="msg">Not registered?<a href="">Sign Up</a> </p>
+                </form>
+            </div>
         </div>
     </body>
 </html>

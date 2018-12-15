@@ -12,7 +12,7 @@
 #menubar a{
     font-size: 22px;
     padding: 0 10px;
-    border-right: 1px solid #BB4545;
+    border-right: 1px solid #ffffff;
     position: relative;
     float: right
 }
@@ -50,8 +50,21 @@ a:hover{
     float: left;
     padding-left: 0
 }
+
+#slogan{
+    font-family: 'Dosis';
+    font-style: italic;
+    color: white;
+    font-size: 27px;
+    margin-left: 30%;
+        
+}
 body{
     font-family: 'Dosis', 'Roboto',sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/bg1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 hr{
     
@@ -64,4 +77,56 @@ hr{
     background-color: #ae9d55;
     font-family: dosis;    
     padding: none;    
+}
+.login-container{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: 0 auto;
+}
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+    max-width: 360px;
+    margin:  0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    
+}
+
+.form input{
+    font-family: "Dosis", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.form button{
+    font-family: "Dosis", sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    outline: 0;
+    background: #AE9D55;
+    color: white;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+}
+.msg{
+    color: #AE9D55;
+    font-size: 17px;
+    margin: 15px 0 0;
+    font-style: italic;
+}
+.form button:hover, .form button:active{
+    background: #AE9D15;
+}
+.form .register-form{
+    display: none;
 }
