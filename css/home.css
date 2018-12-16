@@ -1,0 +1,131 @@
+#topbar{
+    width: auto;
+    margin: 0 auto;
+    height: 100px;
+    background-color: #AE9D55
+}
+#menubarcontainer{
+    width: auto;
+    height: 40px;
+    background-color: #AE9D55    
+}
+#menubar a{
+    font-size: 22px;
+    padding: 0 10px;
+    border-right: 1px solid #ffffff;
+    position: relative;
+    float: right
+}
+
+#menubar a:hover{
+    text-decoration: underline;
+}
+
+#menubar input[type=text]{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(239, 224, 162);
+    font-family: "dosis","roboto", sans-serif;
+    font-size: 100%;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 30%
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#signin{
+    float: right;
+    font-size: 27;
+    font-weight: bold;
+    color: white;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+#logo{
+    height: 100px;
+    float: left;
+    padding-left: 0
+}
+body{
+    font-family: 'Dosis', 'Roboto',sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/bg1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+hr{
+    
+    margin: 3;
+    
+}
+#menubar button{
+    height: 40;
+    width:90px;
+    color: white;
+    background-color: #ae9d55;
+    font-family: dosis;    
+    padding: none;   
+    font-weight: bolder;
+    margin-left: 0px;
+    }
+#menubar button:hover{
+    text-transform: uppercase;
+    color: black;
+}
+
+.sidebar{
+    width: 15%;
+    height: 100%;
+    float: left;
+    background-color: black;
+
+}
+
+.bar-item{
+    font-size: 22px;
+    
+}
+
+.question-title{
+    text-decoration: underline;
+    font-size: 145%;    
+}
+
+.question-title:hover{
+    color: #e2c196;
+}
+
+.question-container{
+    background: rgba(239, 224, 162, 0.2);
+    
+    width: 80%;
+    float: right;
+    padding-left: 20px;
+}
+.attribs{
+    font-style: italic;
+    float: right;
+    font-size: 85%;
+    background-color: rgba(174, 157, 85, 0.31);
+    margin-right: 10px;
+}
+
+#slogan{
+    font-family: 'Dosis';
+    font-style: italic;
+    color: white;
+    font-size: 27px;
+    margin-left: 30%;
+}
+
