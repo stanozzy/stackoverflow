@@ -78,9 +78,10 @@ hr{
     padding: none;   
     font-weight: bolder;
     margin-left: 0px;
+    text-transform: uppercase;
     }
 #menubar button:hover{
-    text-transform: uppercase;
+    
     color: black;
 }
 
@@ -119,6 +120,7 @@ hr{
     font-size: 85%;
     background-color: rgba(174, 157, 85, 0.31);
     margin-right: 10px;
+    padding: 5px;
 }
 
 #slogan{
@@ -127,5 +129,6 @@ hr{
     color: white;
     font-size: 27px;
     margin-left: 30%;
+    
 }
 
